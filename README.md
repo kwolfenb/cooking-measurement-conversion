@@ -1,4 +1,4 @@
-# _Booking_
+# _Cooking_
 
 #### _single Webpage for Epicodus, 10.17.2018_
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-_A webpage to submit a booking._
+_A website with forms to convert various cooking units of measure._
 
 ## Setup/Installation Requirements
 
@@ -27,6 +27,7 @@ _Contact Kenny Wolfenberger - kennywolfenberger@gmail.com or Kaveh Saleminejad -
 * _CSS_
 * _JavaScript_
 * _JQuery_
+* _Bootstrap_
 
 ### License
 

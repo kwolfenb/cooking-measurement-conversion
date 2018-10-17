@@ -5,41 +5,42 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Booking</title>
+    <title>Cooking Conversions</title>
   </head>
   <body>
     <div class="container">
-      <h1>Please book your appointment here</h1>
-      <div id="blanks">
-        <form>
+      <h1>Cooking measurement conversions</h1>
+      <div>
+        <form id="1">
           <div class="form-group">
-            <label for="name">Name</label>
-            <input id="name" class="form-control" type="text">
+            <label for="pounds">Pounds</label>
+            <input id="pounds" class="form-control" type="text">
           </div>
-          <div class="form-group">
-            <label for="description">description</label>
-            <input id="description" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="date">Date</label>
-            <input id="date" class="form-control" type="date">
-          </div>
-          <div class="form-group">
-            <label for="starttime">Start time</label>
-            <input id="starttime" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="endtime">End time</label>
-            <input id="endtime" class="form-control" type="text">
-          </div>
-            <button type="submit" class="btn">Show me my appointment!</button>
+          <button type="submit" class="btn btn-primary">Convert to Kgs!</button>
         </form>
-      </div>
-
-      <div id="story">
-        <h1>Booking Successful</h1>
-        <p>Congratulation <span class="name"></span>,</p>
-        <p>Your appointment about <span class="description"></span> was submitted for <span class="date"></span>, "<span class="starttime"></span>"- "<span class="endtime"></span>" .</p>
+        <div id="story1">
+          <h4>The weight is : <span class="pounds"></span> kgs</h4>
+        </div>
+        <form id="2">
+          <div class="form-group">
+            <label for="litres">Litres</label>
+            <input id="litres" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn btn-primary">Convert to Gallons!</button>
+        </form>
+        <div id="story2">
+          <h4>The volume is : <span class="litres"></span> Gallons</h4>
+        </div>
+        <form id="3">
+          <div class="form-group">
+            <label for="ounces">Ounces</label>
+            <input id="ounces" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn btn-primary">Convert to Grams!</button>
+        </form>
+        <div id="story3">
+          <h4>The weight is : <span class="ounces"></span> grams</h4>
+        </div>
       </div>
     </div>
   </body>
